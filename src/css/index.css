@@ -58,8 +58,8 @@
   color: #fff !important;
   font-size: 8em;
   animation: loading 2.3s infinite;
-  fill: #fff ;
-  text-shadow: 1px 1px 1px #333;
+  fill: #c42323 ;
+  /* text-shadow: 1px 1px 1px #333; */
  
 }
 
@@ -275,7 +275,7 @@
 }
 
 :root {
-  background-image: url("../images/ella-jardim-M0zs81FNm6s-unsplash.jpg");
+  background-image: url("../images/4.jpg");
   background-size: cover;
   background-attachment: fixed;
 
@@ -326,6 +326,19 @@
 
 
 @media screen and (max-width:900px) {
+  .loadiv{
+    text-align: center;
+    left: 40%;
+  }
+  .loadiv p{
+    font-size: 1.4em;
+  }
+
+  .loading svg{
+    font-size: 5em;
+    
+
+  }
   #btn {
     display: block;
     color: #fff;
